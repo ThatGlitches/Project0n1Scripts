@@ -14,6 +14,8 @@ elseif game.PlaceId == 189707 then -- Natural Disaster Survival
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Natural%20Disaster%20Survival.lua"))()
 elseif game.PlaceId == 3956818381 then -- Ninja Legends
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Ninja%20Legends.lua"))()
+elseif game.PlaceId == 10048079179 then -- Fat Simulator
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Fat%20Simulator.lua"))()
     else
         game:GetService("StarterGui"):SetCore("SendNotification",{
 	        Title = "0n1 Hub",
