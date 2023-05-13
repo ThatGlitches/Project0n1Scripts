@@ -12,7 +12,7 @@ function CorrectKey()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Legends%20Of%20Speed.lua"))()
 elseif game.PlaceId == 189707 then -- Natural Disaster Survival
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Natural%20Disaster%20Survival.lua"))()
-elseif game.PlaceId == 3956818381 -- Ninja Legends
+elseif game.PlaceId == 3956818381 then -- Ninja Legends
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Ninja%20Legends.lua"))()
     else
         game:GetService("StarterGui"):SetCore("SendNotification",{
