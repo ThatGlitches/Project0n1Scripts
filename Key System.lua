@@ -10,6 +10,8 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 function CorrectKey()
     if game.PlaceId == 3101667897 then -- Legends Of Speed
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Legends%20Of%20Speed.lua"))()
+elseif game.PlaceId == 189707 then -- Natural Disaster Survival
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Natural%20Disaster%20Survival.lua"))()
     else
         game:GetService("StarterGui"):SetCore("SendNotification",{
 	        Title = "0n1 Hub",
