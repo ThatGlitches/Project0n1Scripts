@@ -30,6 +30,8 @@ function CorrectKey()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Escape%20Running%20Head.lua"))()
 elseif game.PlaceId == 11166344460 then -- Easy Stud Jumps Obby
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Easy%20Stud%20Jumps%20Obby.lua"))()
+elseif game.PlaceId == 6429911702 then -- Master's Difficulty Chart Obby
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Master's%20Difficulty%20Chart%20Obby.lua"))()
     else
         game:GetService("StarterGui"):SetCore("SendNotification",{
 	        Title = "0n1 Hub",
