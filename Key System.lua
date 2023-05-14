@@ -24,6 +24,9 @@ elseif game.PlaceId == 8712817601 then -- Barry's Prison Run
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Barry's%20Prison%20Run.lua"))()
 elseif game.PlaceId == 9468803356 then -- Guess The Line For Admin Obby
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Guess%20The%20Line%20For%20Admin%20Obby.lua"))()
+elseif game.PlaceId == 11756661207 then -- Stairs Of Rage
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Stairs%20Of%20Rage.lua"))()
+
     else
         game:GetService("StarterGui"):SetCore("SendNotification",{
 	        Title = "0n1 Hub",
