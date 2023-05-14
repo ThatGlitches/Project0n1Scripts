@@ -10,25 +10,24 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 function CorrectKey()
     if game.PlaceId == 3101667897 then -- Legends Of Speed
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Legends%20Of%20Speed.lua"))()
-elseif game.PlaceId == 189707 then -- Natural Disaster Survival
+    elseif game.PlaceId == 189707 then -- Natural Disaster Survival
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Natural%20Disaster%20Survival.lua"))()
-elseif game.PlaceId == 3956818381 then -- Ninja Legends
+    elseif game.PlaceId == 3956818381 then -- Ninja Legends
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Ninja%20Legends.lua"))()
-elseif game.PlaceId == 10048079179 then -- Fat Simulator
+    elseif game.PlaceId == 10048079179 then -- Fat Simulator
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Fat%20Simulator.lua"))()
-elseif game.PlaceId == 3587619225 then -- Mega Easy Obby
+    elseif game.PlaceId == 3587619225 then -- Mega Easy Obby
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Mega%20Easy%20Obby.lua"))()
-elseif game.PlaceId == 7952502098 then -- Impossible Glass Bridge Obby
+    elseif game.PlaceId == 7952502098 then -- Impossible Glass Bridge Obby
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Impossible%20Glass%20Bridge%20Obby.lua"))()
-elseif game.PlaceId == 8712817601 then -- Barry's Prison Run
+    elseif game.PlaceId == 8712817601 then -- Barry's Prison Run
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Barry's%20Prison%20Run.lua"))()
-elseif game.PlaceId == 9468803356 then -- Guess The Line For Admin Obby
+    elseif game.PlaceId == 9468803356 then -- Guess The Line For Admin Obby
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Guess%20The%20Line%20For%20Admin%20Obby.lua"))()
-elseif game.PlaceId == 11756661207 then -- Stairs Of Rage
+    elseif game.PlaceId == 11756661207 then -- Stairs Of Rage
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Stairs%20Of%20Rage.lua"))()
-elseif game.PlaceId == 6205205961 then -- Escape Running Head
+    elseif game.PlaceId == 6205205961 then -- Escape Running Head
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Escape%20Running%20Head.lua"))()
-
     else
         game:GetService("StarterGui"):SetCore("SendNotification",{
 	        Title = "0n1 Hub",
@@ -55,8 +54,8 @@ local window = library.CreateLib("0n1 Hub | V5.1", colors)
 
 -- // Define Tabs \\ --
 local tab1 = window:NewTab("Information")
-local tab2 = window:NewTab("Games")
 local tab3 = window:NewTab("Key System")
+local tab2 = window:NewTab("Changelog")
 local tab4 = window:NewTab("Settings")
 
 -- // Define tab1 \\ --
@@ -85,61 +84,21 @@ section2:NewButton("Copy 2nd Channel Link", "", function()
 end)
 
 -- // Define tab2 \\ --
-local section3 = tab2:NewSection("Simulators")
+local section3 = tab2:NewSection("0n1 Hub v5.1")
 
-section3:NewButton("Legends Of Speed", "", function()
+section3:NewButton("New Library [Kavo]", "", function()
     
 end)
 
-section3:NewButton("Ninja Legends", "", function()
+section3:NewButton("New Main Colors", "", function()
     
 end)
 
-section3:NewButton("Pig Run", "", function()
+section3:NewButton("Removed Prison Life", "", function()
     
 end)
 
-section3:NewButton("Fat Simulator", "", function()
-    
-end)
-
-section3:NewButton("Natural Disaster Survival", "", function()
-    
-end)
-
-local section4 = tab2:NewSection("Obby")
-
-section4:NewButton("Easy Stud Jumps Obby", "", function()
-    
-end)
-
-section4:NewButton("Master's Difficulty Chart Obby", "", function()
-    
-end)
-
-section4:NewButton("Impossible Glass Bridge Obby", "", function()
-    
-end)
-
-section4:NewButton("Barry's Prison Run Obby", "", function()
-    
-end)
-
-section4:NewButton("Guess The Line For Admin Obby", "", function()
-    
-end)
-
-section4:NewButton("Stairs Of Rage", "", function()
-    
-end)
-
-section4:NewButton("Mega Easy Obby", "", function()
-    
-end)
-
-local section5 = tab2:NewSection("Other")
-
-section5:NewButton("Escape Running Head", "", function()
+section3:NewButton("Removed Broken Bones", "", function()
     
 end)
 
