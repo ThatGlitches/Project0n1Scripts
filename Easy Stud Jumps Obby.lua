@@ -90,6 +90,7 @@ section3:NewToggle("Auto Complete Obby", "", function(state)
     game.Players.LocalPlayer.Character:MoveTo(Vector3.new(200,1266,-987))
     wait(0.2)
     fireproximityprompt(workspace.RebirthButtons.Spawn.ProximityPrompt, 1, true)
+wait(1)
            end
         else
            _G.loop = false
