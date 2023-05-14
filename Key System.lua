@@ -22,6 +22,8 @@ elseif game.PlaceId == 7952502098 then -- Impossible Glass Bridge Obby
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Impossible%20Glass%20Bridge%20Obby.lua"))()
 elseif game.PlaceId == 8712817601 then -- Barry's Prison Run
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Barry's%20Prison%20Run.lua"))()
+elseif game.PlaceId == 9468803356 then -- Guess The Line For Admin Obby
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatGlitches/Project0n1Scripts/main/Guess%20The%20Line%20For%20Admin%20Obby.lua"))()
     else
         game:GetService("StarterGui"):SetCore("SendNotification",{
 	        Title = "0n1 Hub",
